@@ -1,4 +1,3 @@
-//your JS code here. If required.
 // Function to create a Promise that resolves after a random time between min and max seconds
 function createRandomPromise(min, max) {
     const randomTime = Math.random() * (max - min) + min;
@@ -55,8 +54,4 @@ Promise.all(promises)
         totalTimeCell.textContent = totalTime.toFixed(3);
         totalRow.appendChild(totalCell);
         totalRow.appendChild(totalTimeCell);
-        resultTableBody.appendChild(totalRow);
-    })
-    .catch(error => {
-        console.error('An error occurred:', error);
-    });
+        resultTableBody.appendChild
